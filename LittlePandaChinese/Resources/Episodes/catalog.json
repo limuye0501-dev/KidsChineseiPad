@@ -1,0 +1,34 @@
+{
+  "freeThrough": 2,
+  "shelf": [
+    { "episode": "episode-01-colors" },
+    {
+      "number": 2,
+      "titleHanzi": "数字",
+      "titlePinyin": "Shùzì",
+      "titleEnglish": "Numbers",
+      "free": true
+    },
+    {
+      "number": 3,
+      "titleHanzi": "动物",
+      "titlePinyin": "Dòngwù",
+      "titleEnglish": "Animals",
+      "free": false
+    },
+    {
+      "number": 4,
+      "titleHanzi": "家人",
+      "titlePinyin": "Jiārén",
+      "titleEnglish": "Family",
+      "free": false
+    },
+    {
+      "number": 5,
+      "titleHanzi": "水果",
+      "titlePinyin": "Shuǐguǒ",
+      "titleEnglish": "Fruit",
+      "free": false
+    }
+  ]
+}

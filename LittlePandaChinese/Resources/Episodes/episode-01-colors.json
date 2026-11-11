@@ -1,0 +1,627 @@
+{
+  "id": "colors",
+  "number": 1,
+  "titleHanzi": "颜色",
+  "titlePinyin": "Yánsè",
+  "titleEnglish": "Colors",
+  "free": true,
+  "beats": [
+    {
+      "id": "title",
+      "kind": "title",
+      "role": "title",
+      "duration": 6,
+      "hold": 3.2,
+      "sfx": "pop",
+      "color": "rainbow",
+      "prompt": {
+        "hanzi": "颜色",
+        "pinyin": "Yánsè",
+        "english": "Colors",
+        "spoken": "颜色",
+        "speaker": "narrator"
+      }
+    },
+    {
+      "id": "hello",
+      "kind": "dialogue",
+      "role": "intro",
+      "duration": 5,
+      "hold": 0.8,
+      "prompt": {
+        "hanzi": "你好！",
+        "pinyin": "Nǐ hǎo!",
+        "english": "Hello!",
+        "spoken": "你好！",
+        "speaker": "panda"
+      }
+    },
+    {
+      "id": "iam",
+      "kind": "dialogue",
+      "role": "intro",
+      "duration": 5.5,
+      "hold": 1.0,
+      "prompt": {
+        "hanzi": "我是小熊猫。",
+        "pinyin": "Wǒ shì xiǎo xióngmāo.",
+        "english": "I'm Little Panda.",
+        "spoken": "我是小熊猫。",
+        "speaker": "panda"
+      }
+    },
+    {
+      "id": "q_red",
+      "kind": "dialogue",
+      "role": "question",
+      "duration": 5.5,
+      "hold": 0.6,
+      "animal": "crab",
+      "color": "red",
+      "sfx": "boing",
+      "prompt": {
+        "hanzi": "这是什么颜色？",
+        "pinyin": "Zhè shì shénme yánsè?",
+        "english": "What color is this?",
+        "spoken": "这是什么颜色？",
+        "speaker": "panda"
+      }
+    },
+    {
+      "id": "a_red",
+      "kind": "dialogue",
+      "role": "answer",
+      "duration": 5.5,
+      "hold": 1.1,
+      "animal": "crab",
+      "color": "red",
+      "prompt": {
+        "hanzi": "它是红色的！",
+        "pinyin": "Tā shì hóngsè de!",
+        "english": "It's red!",
+        "spoken": "它是红色的！",
+        "speaker": "animal"
+      }
+    },
+    {
+      "id": "q_yellow",
+      "kind": "dialogue",
+      "role": "question",
+      "duration": 5.5,
+      "hold": 0.6,
+      "animal": "duck",
+      "color": "yellow",
+      "sfx": "boing",
+      "prompt": {
+        "hanzi": "这是什么颜色？",
+        "pinyin": "Zhè shì shénme yánsè?",
+        "english": "What color is this?",
+        "spoken": "这是什么颜色？",
+        "speaker": "panda"
+      }
+    },
+    {
+      "id": "a_yellow",
+      "kind": "dialogue",
+      "role": "answer",
+      "duration": 5.5,
+      "hold": 1.1,
+      "animal": "duck",
+      "color": "yellow",
+      "prompt": {
+        "hanzi": "它是黄色的！",
+        "pinyin": "Tā shì huángsè de!",
+        "english": "It's yellow!",
+        "spoken": "它是黄色的！",
+        "speaker": "animal"
+      }
+    },
+    {
+      "id": "q_blue",
+      "kind": "dialogue",
+      "role": "question",
+      "duration": 5.5,
+      "hold": 0.6,
+      "animal": "bird",
+      "color": "blue",
+      "sfx": "boing",
+      "prompt": {
+        "hanzi": "这是什么颜色？",
+        "pinyin": "Zhè shì shénme yánsè?",
+        "english": "What color is this?",
+        "spoken": "这是什么颜色？",
+        "speaker": "panda"
+      }
+    },
+    {
+      "id": "a_blue",
+      "kind": "dialogue",
+      "role": "answer",
+      "duration": 5.5,
+      "hold": 1.1,
+      "animal": "bird",
+      "color": "blue",
+      "prompt": {
+        "hanzi": "它是蓝色的！",
+        "pinyin": "Tā shì lánsè de!",
+        "english": "It's blue!",
+        "spoken": "它是蓝色的！",
+        "speaker": "animal"
+      }
+    },
+    {
+      "id": "q_green",
+      "kind": "dialogue",
+      "role": "question",
+      "duration": 5.5,
+      "hold": 0.6,
+      "animal": "frog",
+      "color": "green",
+      "sfx": "boing",
+      "prompt": {
+        "hanzi": "这是什么颜色？",
+        "pinyin": "Zhè shì shénme yánsè?",
+        "english": "What color is this?",
+        "spoken": "这是什么颜色？",
+        "speaker": "panda"
+      }
+    },
+    {
+      "id": "a_green",
+      "kind": "dialogue",
+      "role": "answer",
+      "duration": 5.5,
+      "hold": 1.1,
+      "animal": "frog",
+      "color": "green",
+      "prompt": {
+        "hanzi": "它是绿色的！",
+        "pinyin": "Tā shì lǜsè de!",
+        "english": "It's green!",
+        "spoken": "它是绿色的！",
+        "speaker": "animal"
+      }
+    },
+    {
+      "id": "drill_cue",
+      "kind": "dialogue",
+      "role": "drill",
+      "duration": 4.5,
+      "hold": 0.7,
+      "prompt": {
+        "hanzi": "跟我读！",
+        "pinyin": "Gēn wǒ dú!",
+        "english": "Read with me!",
+        "spoken": "跟我读！",
+        "speaker": "panda"
+      }
+    },
+    {
+      "id": "v_red_1",
+      "kind": "vocab",
+      "role": "vocab",
+      "duration": 2,
+      "hold": 1.05,
+      "color": "red",
+      "sfx": "pop",
+      "card": {
+        "hanzi": "红",
+        "pinyin": "hóng",
+        "english": "red",
+        "color": "red"
+      },
+      "prompt": {
+        "hanzi": "红",
+        "pinyin": "hóng",
+        "english": "red",
+        "spoken": "红",
+        "speaker": "panda"
+      }
+    },
+    {
+      "id": "v_yellow_1",
+      "kind": "vocab",
+      "role": "vocab",
+      "duration": 2,
+      "hold": 1.05,
+      "color": "yellow",
+      "sfx": "pop",
+      "card": {
+        "hanzi": "黄",
+        "pinyin": "huáng",
+        "english": "yellow",
+        "color": "yellow"
+      },
+      "prompt": {
+        "hanzi": "黄",
+        "pinyin": "huáng",
+        "english": "yellow",
+        "spoken": "黄",
+        "speaker": "panda"
+      }
+    },
+    {
+      "id": "v_blue_1",
+      "kind": "vocab",
+      "role": "vocab",
+      "duration": 2,
+      "hold": 1.05,
+      "color": "blue",
+      "sfx": "pop",
+      "card": {
+        "hanzi": "蓝",
+        "pinyin": "lán",
+        "english": "blue",
+        "color": "blue"
+      },
+      "prompt": {
+        "hanzi": "蓝",
+        "pinyin": "lán",
+        "english": "blue",
+        "spoken": "蓝",
+        "speaker": "panda"
+      }
+    },
+    {
+      "id": "v_green_1",
+      "kind": "vocab",
+      "role": "vocab",
+      "duration": 2,
+      "hold": 1.05,
+      "color": "green",
+      "sfx": "pop",
+      "card": {
+        "hanzi": "绿",
+        "pinyin": "lǜ",
+        "english": "green",
+        "color": "green"
+      },
+      "prompt": {
+        "hanzi": "绿",
+        "pinyin": "lǜ",
+        "english": "green",
+        "spoken": "绿",
+        "speaker": "panda"
+      }
+    },
+    {
+      "id": "v_red_2",
+      "kind": "vocab",
+      "role": "vocab",
+      "duration": 2,
+      "hold": 1.05,
+      "color": "red",
+      "sfx": "pop",
+      "card": {
+        "hanzi": "红",
+        "pinyin": "hóng",
+        "english": "red",
+        "color": "red"
+      },
+      "prompt": {
+        "hanzi": "红",
+        "pinyin": "hóng",
+        "english": "red",
+        "spoken": "红",
+        "speaker": "panda"
+      }
+    },
+    {
+      "id": "v_yellow_2",
+      "kind": "vocab",
+      "role": "vocab",
+      "duration": 2,
+      "hold": 1.05,
+      "color": "yellow",
+      "sfx": "pop",
+      "card": {
+        "hanzi": "黄",
+        "pinyin": "huáng",
+        "english": "yellow",
+        "color": "yellow"
+      },
+      "prompt": {
+        "hanzi": "黄",
+        "pinyin": "huáng",
+        "english": "yellow",
+        "spoken": "黄",
+        "speaker": "panda"
+      }
+    },
+    {
+      "id": "v_blue_2",
+      "kind": "vocab",
+      "role": "vocab",
+      "duration": 2,
+      "hold": 1.05,
+      "color": "blue",
+      "sfx": "pop",
+      "card": {
+        "hanzi": "蓝",
+        "pinyin": "lán",
+        "english": "blue",
+        "color": "blue"
+      },
+      "prompt": {
+        "hanzi": "蓝",
+        "pinyin": "lán",
+        "english": "blue",
+        "spoken": "蓝",
+        "speaker": "panda"
+      }
+    },
+    {
+      "id": "v_green_2",
+      "kind": "vocab",
+      "role": "vocab",
+      "duration": 2,
+      "hold": 1.05,
+      "color": "green",
+      "sfx": "pop",
+      "card": {
+        "hanzi": "绿",
+        "pinyin": "lǜ",
+        "english": "green",
+        "color": "green"
+      },
+      "prompt": {
+        "hanzi": "绿",
+        "pinyin": "lǜ",
+        "english": "green",
+        "spoken": "绿",
+        "speaker": "panda"
+      }
+    },
+    {
+      "id": "joke_line",
+      "kind": "joke",
+      "role": "joke",
+      "duration": 4.5,
+      "hold": 0.5,
+      "cans": "teeter",
+      "prompt": {
+        "hanzi": "哎呀！颜料倒下来啦！",
+        "pinyin": "Āiyā! Yánliào dào xiàlái la!",
+        "english": "Oh no! The paint is falling!",
+        "spoken": "哎呀！颜料倒下来啦！",
+        "speaker": "panda"
+      }
+    },
+    {
+      "id": "joke_fall",
+      "kind": "joke",
+      "role": "joke",
+      "duration": 6.5,
+      "cans": "fall",
+      "pandaMessy": true,
+      "sfx": "splash",
+      "color": "rainbow"
+    },
+    {
+      "id": "rainbow",
+      "kind": "joke",
+      "role": "rainbow",
+      "duration": 6,
+      "hold": 1.8,
+      "showRainbow": true,
+      "pandaMessy": true,
+      "color": "rainbow",
+      "sfx": "ding",
+      "prompt": {
+        "hanzi": "哇！彩虹！",
+        "pinyin": "Wa! Cǎihóng!",
+        "english": "Wow! A rainbow!",
+        "spoken": "哇！彩虹！",
+        "speaker": "panda"
+      }
+    },
+    {
+      "id": "your_turn",
+      "kind": "dialogue",
+      "role": "yourTurn",
+      "duration": 5,
+      "hold": 0.8,
+      "sfx": "pop",
+      "pandaMessy": true,
+      "prompt": {
+        "hanzi": "现在轮到你啦！",
+        "pinyin": "Xiànzài lún dào nǐ la!",
+        "english": "Now it's your turn!",
+        "spoken": "现在轮到你啦！",
+        "speaker": "panda"
+      }
+    },
+    {
+      "id": "quiz_red",
+      "kind": "quiz",
+      "role": "quiz",
+      "duration": 12,
+      "quizPause": 3,
+      "animal": "crab",
+      "color": "red",
+      "sfx": "boing",
+      "pandaMessy": true,
+      "prompt": {
+        "hanzi": "这是什么颜色？",
+        "pinyin": "Zhè shì shénme yánsè?",
+        "english": "What color is this?",
+        "spoken": "这是什么颜色？",
+        "speaker": "panda"
+      },
+      "answer": {
+        "hanzi": "它是红色的！",
+        "pinyin": "Tā shì hóngsè de!",
+        "english": "It's red!",
+        "spoken": "它是红色的！",
+        "speaker": "panda"
+      },
+      "choices": [
+        {
+          "id": "red",
+          "hanzi": "红",
+          "pinyin": "hóng",
+          "english": "red",
+          "color": "red",
+          "correct": true
+        },
+        {
+          "id": "yellow",
+          "hanzi": "黄",
+          "pinyin": "huáng",
+          "english": "yellow",
+          "color": "yellow",
+          "correct": false
+        },
+        {
+          "id": "blue",
+          "hanzi": "蓝",
+          "pinyin": "lán",
+          "english": "blue",
+          "color": "blue",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "quiz_twist",
+      "kind": "quiz",
+      "role": "quiz",
+      "duration": 12,
+      "quizPause": 3,
+      "twist": true,
+      "animal": "duck",
+      "color": "yellow",
+      "sfx": "boing",
+      "pandaMessy": true,
+      "prompt": {
+        "hanzi": "是蓝色的吗？",
+        "pinyin": "Shì lánsè de ma?",
+        "english": "Is it blue?",
+        "spoken": "是蓝色的吗？",
+        "speaker": "panda"
+      },
+      "answer": {
+        "hanzi": "它是黄色的！",
+        "pinyin": "Tā shì huángsè de!",
+        "english": "It's yellow!",
+        "spoken": "它是黄色的！",
+        "speaker": "panda"
+      },
+      "correction": {
+        "hanzi": "不是。它是黄色的！",
+        "pinyin": "Bú shì. Tā shì huángsè de!",
+        "english": "No. It's yellow!",
+        "spoken": "不是。它是黄色的！",
+        "speaker": "panda"
+      },
+      "choices": [
+        {
+          "id": "blue",
+          "hanzi": "蓝",
+          "pinyin": "lán",
+          "english": "blue",
+          "color": "blue",
+          "correct": false
+        },
+        {
+          "id": "yellow",
+          "hanzi": "黄",
+          "pinyin": "huáng",
+          "english": "yellow",
+          "color": "yellow",
+          "correct": true
+        },
+        {
+          "id": "red",
+          "hanzi": "红",
+          "pinyin": "hóng",
+          "english": "red",
+          "color": "red",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "quiz_green",
+      "kind": "quiz",
+      "role": "quiz",
+      "duration": 12,
+      "quizPause": 3,
+      "animal": "frog",
+      "color": "green",
+      "sfx": "boing",
+      "pandaMessy": true,
+      "prompt": {
+        "hanzi": "这是什么颜色？",
+        "pinyin": "Zhè shì shénme yánsè?",
+        "english": "What color is this?",
+        "spoken": "这是什么颜色？",
+        "speaker": "panda"
+      },
+      "answer": {
+        "hanzi": "它是绿色的！",
+        "pinyin": "Tā shì lǜsè de!",
+        "english": "It's green!",
+        "spoken": "它是绿色的！",
+        "speaker": "panda"
+      },
+      "choices": [
+        {
+          "id": "blue",
+          "hanzi": "蓝",
+          "pinyin": "lán",
+          "english": "blue",
+          "color": "blue",
+          "correct": false
+        },
+        {
+          "id": "green",
+          "hanzi": "绿",
+          "pinyin": "lǜ",
+          "english": "green",
+          "color": "green",
+          "correct": true
+        },
+        {
+          "id": "yellow",
+          "hanzi": "黄",
+          "pinyin": "huáng",
+          "english": "yellow",
+          "color": "yellow",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "bye",
+      "kind": "outro",
+      "role": "outro",
+      "duration": 5,
+      "hold": 1.4,
+      "pandaMessy": true,
+      "prompt": {
+        "hanzi": "再见！",
+        "pinyin": "Zàijiàn!",
+        "english": "Bye-bye!",
+        "spoken": "再见！",
+        "speaker": "panda"
+      }
+    },
+    {
+      "id": "bye2",
+      "kind": "outro",
+      "role": "outro",
+      "duration": 5,
+      "hold": 1.6,
+      "pandaMessy": true,
+      "sfx": "pop",
+      "prompt": {
+        "hanzi": "下次见！",
+        "pinyin": "Xià cì jiàn!",
+        "english": "See you next time!",
+        "spoken": "下次见！",
+        "speaker": "panda"
+      }
+    }
+  ]
+}
