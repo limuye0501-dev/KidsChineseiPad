@@ -26,6 +26,10 @@ jobs:
           P8_B64: ${{ secrets.ASC_KEY_P8 }}
           KEY_ID: ${{ secrets.ASC_KEY_ID }}
         run: |
+          if [ -z "$KEY_ID" ] || [ -z "$P8_B64" ]; then
+            echo "ASC_KEY_ID or ASC_KEY_P8 is not set on this repository."
+            exit 1
+          fi
           mkdir -p ~/private_keys
           KP=~/private_keys/AuthKey_${KEY_ID}.p8
           echo "$P8_B64" | base64 --decode > "$KP"
@@ -36,6 +40,10 @@ jobs:
           P12_B64: ${{ secrets.DIST_CERT_P12 }}
           P12_PASS: ${{ secrets.DIST_CERT_PASSWORD }}
         run: |
+          if [ -z "$P12_B64" ] || [ -z "$P12_PASS" ]; then
+            echo "DIST_CERT_P12 or DIST_CERT_PASSWORD is not set on this repository."
+            exit 1
+          fi
           KC=$RUNNER_TEMP/b.keychain-db
           KCP=$(openssl rand -hex 12)
           echo "$P12_B64" | base64 --decode > "$RUNNER_TEMP/d.p12"

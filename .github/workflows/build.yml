@@ -96,7 +96,6 @@ jobs:
           ')
           xcrun simctl boot "$UDID" || true
           xcrun simctl bootstatus "$UDID" -b
-          xcrun simctl ui "$UDID" orientation landscapeLeft || true
           xcrun simctl status_bar "$UDID" override --time "9:41" --dataNetwork wifi --wifiBars 3 --cellularBars 4 --batteryState charged --batteryLevel 100 || true
           APP="build/Build/Products/Debug-iphonesimulator/LittlePandaChinese.app"
           xcrun simctl install "$UDID" "$APP"
@@ -107,6 +106,9 @@ jobs:
             xcrun simctl launch "$UDID" com.limuye.littlepandachinese -LPCScreen "$screen" -AppleLanguages "(en)" -AppleLocale en_US
             sleep "$pause"
             xcrun simctl io "$UDID" screenshot "shots/${name}.png"
+            w=$(sips -g pixelWidth "shots/${name}.png" | awk '/pixelWidth/{print $2}')
+            h=$(sips -g pixelHeight "shots/${name}.png" | awk '/pixelHeight/{print $2}')
+            if [ "$w" -lt "$h" ]; then sips -r 270 "shots/${name}.png" >/dev/null; fi
           }
           capture 01-home home 6
           capture 02-title title 6
