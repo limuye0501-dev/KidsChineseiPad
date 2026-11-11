@@ -1,0 +1,12 @@
+*.xcodeproj
+*.xcworkspace
+build/
+DerivedData/
+*.log
+.DS_Store
+xcuserdata/
+*.mobileprovision
+*.p12
+*.p8
+EO.plist
+shots/

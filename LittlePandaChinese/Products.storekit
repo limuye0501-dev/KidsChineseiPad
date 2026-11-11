@@ -1,0 +1,31 @@
+{
+  "identifier" : "LittlePandaChinese",
+  "nonRenewingSubscriptions" : [],
+  "products" : [
+    {
+      "displayPrice" : "4.99",
+      "familyShareable" : true,
+      "internalID" : "7100000001",
+      "localizations" : [
+        {
+          "description" : "Unlock every Little Panda Chinese episode with a one-time purchase. Episodes 1 and 2 stay free.",
+          "displayName" : "Unlock All Episodes",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.limuye.littlepandachinese.unlockall",
+      "referenceName" : "Unlock All",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_locale" : "en_US",
+    "_storefront" : "USA"
+  },
+  "subscriptionGroups" : [],
+  "version" : {
+    "major" : 4,
+    "minor" : 0
+  }
+}
