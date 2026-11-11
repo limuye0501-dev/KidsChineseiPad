@@ -76,13 +76,17 @@ struct PaperBackground: View {
     var tint: Color
 
     var body: some View {
-        ZStack {
-            tint
-            Image("PaperTexture")
-                .resizable(resizingMode: .tile)
-                .blendMode(.multiply)
-                .opacity(0.55)
-                .allowsHitTesting(false)
+        GeometryReader { geo in
+            ZStack {
+                tint
+                Image("PaperTexture")
+                    .resizable(resizingMode: .tile)
+                    .frame(width: geo.size.width, height: geo.size.height)
+                    .blendMode(.multiply)
+                    .opacity(0.55)
+                    .allowsHitTesting(false)
+            }
         }
+        .ignoresSafeArea()
     }
 }
